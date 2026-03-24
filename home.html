@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <div class="formcontainer">
+        <h1>Student Registration Form</h1>
+        <table cellpadding="10" cellspacing="25">
+            <form action="">
+                <tr>
+                    <td><label for="rollno">Roll No:</label></td>
+                    <td> <input class="labelwidth" type="number" name="rollno" id="rollno"></td>
+                </tr>
+                <tr>
+                    <td><label for="sname">Student Name:</label></td>
+                    <td> <input type="text" name="sname" id="sname" placeholder="First Name"> -
+                        <input type="text" name="sname" id="sname" placeholder="Last Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="fname">Father Name:</label></td>
+                    <td><input type="text" class="labelwidth" name="fname" id="fname"></td>
+                </tr>
+                <tr>
+                    <td> <label for="dob">Date of birth:</label></td>
+                    <td> <input type="date" name="dob" id="dob"></td>
+                </tr>
+                <tr>
+                    <td> <label for="phone">Mobile no:</label></td>
+                    <td><input type="tel" name="phone" class="labelwidth" id="phone"></td>
+                </tr>
+                <tr>
+                    <td> <label for="mail">Email id:</label></td>
+                    <td> <input class="labelwidth" type="email" name="mail" id="mail"></td>
+                </tr>
+                <tr>
+                    <td> <label for="password">Password:</label></td>
+                    <td> <input class="labelwidth" type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td> <label for="gender">Gender:</label></td>
+                    <td><input type="radio" name="gender" id="gender" value="male"> Male
+                        <input type="radio" name="gender" id="gender" value="female"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="dept">Department:</label></td>
+                    <td> <input type="checkbox" class="department" name="dept" id="dept" value="cse">CSE
+                        <input class="department" type="checkbox" name="dept" id="dept" value="it">IT
+                        <input class="department" type="checkbox" name="dept" id="dept" value="ece">ECE
+                        <input class="department" type="checkbox" name="dept" id="dept" value="civil">Civil
+                        <input class="department" type="checkbox" name="dept" id="dept" value="mech">Mech
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="course">Course:</label></td>
+                    <td><select name="course" id="course" aria-placeholder="Select Current Course">
+                            <option value="java">Java</option>
+                            <option value="python">Python</option>
+                            <option value="Django">Django</option>
+                            <option value="c">C</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="student_photo">Student Photo:</label></td>
+                    <td> <input type="file" name="student_photo" id="student_photo"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="city">City:</label></td>
+                    <td> <input class="labelwidth" type="text" name="city" id="city"></td>
+                </tr>
+                <tr>
+                    <td> <label for="address">Address:</label></td>
+                    <td> <textarea class="labelwidth" name="address" id="address" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <button>Register</button></td>
+                </tr>
+            </form>
+        </table>
+
+    </div>
+</body>
+
+</html>

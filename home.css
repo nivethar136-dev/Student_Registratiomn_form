@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.formcontainer{
+    width: 600px;
+    height:fit-content;
+    margin: auto;
+    background-color: rgb(241, 206, 211);
+}
+.labelwidth{
+    padding: 5px;
+    width: 360px;
+}
+input{
+    padding: 5px;
+}
+.formcontainer h1{
+    margin-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+button{
+    display: flex;
+    margin: 0 auto;
+    padding: 3px;
+}
+.formcontainer .department{
+    margin-left: 5px;
+   
+}
+
+
